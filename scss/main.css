@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  background-color: #0F1F40;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgba(239, 239, 239, 0.7254901961);
+}
+
+h2 {
+  color: rgba(239, 239, 239, 0.7254901961);
+  font-size: 30px;
+}
+
+p {
+  color: rgba(255, 255, 246, 0.4862745098);
+  line-height: 2rem;
+  font-size: 1.6rem;
+}
+
+.titulo {
+  text-align: center;
+}
+
+#botonera {
+  background-color: rgba(55, 89, 203, 0.6745098039);
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.link {
+  color: rgba(155, 147, 147, 0.853);
+  text-decoration: none;
+  font-family: "Roboto";
+  margin-right: 15px;
+}
+
+.link:hover {
+  color: #FFF;
+}
+
+.row img {
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.row img:hover {
+  opacity: 0.3;
+  transition: 0.3s ease-in-out;
+  border: solid black;
+}
+
+.parrafo {
+  color: white;
+  font-size: 18px;
+}
+
+.fondo {
+  background-color: #72A6A6;
+}
+
+.colorboton {
+  background-color: rgb(0, 0, 0);
+  color: rgba(240, 240, 240, 0.733);
+  font-size: 2rem;
+}
+
+.colorboton:hover {
+  color: #FFF;
+}
+
+.card_color {
+  background-color: rgb(242, 235, 235);
+}
+
+.form-label {
+  color: white;
+}
+
+.nav-item a {
+  color: whitesmoke;
+}/*# sourceMappingURL=main.css.map */
